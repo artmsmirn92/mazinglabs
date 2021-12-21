@@ -109,17 +109,9 @@ body{
     text-align: justify;
 }
 
-.listingMain {
-    line-height: 35px;
-    margin-top: 30px;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
 .backGroundImage {
     margin-top: 50px;
-    background: url(../img/back.png);
+    background: url(./img/back.png);
     background-position: top;
     background-size: cover;
 }
@@ -134,7 +126,7 @@ body{
 }
 
 .filterBack{
-    background: url(../img/fullresponsive.png);
+    background: url(./img/fullresponsive.png);
     background-position: top;
     background-size: cover;
     min-height: 350px;
