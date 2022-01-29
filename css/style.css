@@ -1,0 +1,19 @@
+body{
+    font-family: "Monospace", system-ui;
+}
+
+.gamedayad {
+    display: block;
+    clip-path: ellipse(50px 50px at 50px 50px);
+    /* text-align: center; */
+  }
+
+@media screen and (max-width: 200px) {
+    .gamedayad {
+        display: none;
+    }
+}
+
+.policy {
+    font-size: 30px;
+}
