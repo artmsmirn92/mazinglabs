@@ -3,7 +3,7 @@ body{
 }
 
 .gamedayad {
-    display: block;
+    /* display: block; */
     clip-path: ellipse(50px 50px at 50px 50px);
     /* text-align: center; */
   }
