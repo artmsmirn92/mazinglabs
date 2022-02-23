@@ -25,22 +25,26 @@ function write_current_year()
 
 function get_link_thirdparty(title)
 {
-    document.write("<a href=\"javascript:opendoc_trirdparty();\">" + title + "</a>")
+    document.write("<a href=\"javascript:opendoc_trirdparty();\">" + title + "</a>");
 }
 
 function get_link_policy(title)
 {
-    document.write("<a href=\"javascript:opendoc_policy();\">" + title + "</a>")
+    document.write("<a href=\"javascript:opendoc_policy();\">" + title + "</a>");
 }
 
 function get_link_support_mail()
 {
     let mail = "mgc0mob@gmail.com";
-    document.write("<a href =\"mailto: " + mail + "\">"+ mail + "</a>")
+    document.write("<a href=\"mailto: " + mail + "\">"+ mail + "</a>");
 }
 
-
-function write_link(url, title)
+function get_link_full(url, title)
 {
-    document.write("<a href=\"javascript:opendoc_policy();\">" + title + "</a>")
+    document.write("<a href=\"" + url + "\">" + title + "</a>");
+}
+
+function get_link(url)
+{
+    get_link_full(url, url);
 }
