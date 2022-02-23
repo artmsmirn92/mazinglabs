@@ -38,13 +38,3 @@ function get_link_support_mail()
     let mail = "mgc0mob@gmail.com";
     document.write("<a href=\"mailto: " + mail + "\">"+ mail + "</a>");
 }
-
-function get_link_full(url, title)
-{
-    document.write("<a href=\"" + url + "\">" + title + "</a>");
-}
-
-function get_link(url)
-{
-    get_link_full(url, url);
-}
