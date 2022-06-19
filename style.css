@@ -1,13 +1,16 @@
 body{
     font-family: "Monospace", system-ui;
 }
-
-.gamedayad {
+.company_logo_mask {
+    /* display: block; */
+    clip-path: ellipse(100px 100px at 100px 100px);
+    /* text-align: center; */
+  }
+.game_logo_mask {
     /* display: block; */
     clip-path: ellipse(50px 50px at 50px 50px);
     /* text-align: center; */
   }
-
 @media screen and (max-width: 200px) {
     .gamedayad {
         display: none;
