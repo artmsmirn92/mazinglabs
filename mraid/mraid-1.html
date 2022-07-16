@@ -1,0 +1,115 @@
+<script src="mraid.js"></script> <!-- use this script in http://webtester.mraid.org/ -->
+
+<div style="width:100%;height:100%;background-color:#C030C0;">
+  <!-- MP4 file will be pre-loaded by default -->
+  <video id="adVideo" webkit-playsinline src="mraid-1-video.mp4" style="width:100%"></video>
+  <a id="salesTalk">sales talk .. [Learn more]</a>
+</div>
+
+<script>
+//////////////////// VPAID Event ////////////////////
+// used for interaction, between VideoPlayer => MRAID container
+const adEventHandlers = {
+  'AdImpression': null, // used for charge?
+
+  'AdStarted': null,
+  'AdPlaying': null,
+  'AdPaused': null,
+
+  'AdVideoStart': null,
+  'AdVideoFirstQuartile': null,
+  'AdVideoMidpoint': null,
+  'AdVideoThirdQuartile': null,
+  'AdVideoComplete': null,
+
+  'AdClickThru': null,
+
+  'AdError': null, // TODO what to do?
+  'AdLog': null, // rare to use when PRD env (for debug)
+  'AdUserClose': null, // after introduced custom MRAID close button
+  'AdUserMinimize': null, // rare to use?
+  'AdUserAcceptInvitation': null, // rare to use?
+  'AdDurationChanged': null, // rare to use?
+  'AdInteraction': null, // rare to use? for playable ad?
+}
+
+function setupEventHandler(callback, eventName, listenerScope) {
+  // see VPAID_2_0_Final_04-10-2012.pdf
+  adEventHandlers[eventName] = function() {
+    console.log("invoked!: ", eventName)
+    callback()
+  }
+  // TODO use listenerScope
+}
+
+document.getElementById("salesTalk").href = "https://play.google.com/store/apps/details?id=com.MazingLabCo.MazesForever&hl=en&gl=US"
+document.getElementById("salesTalk").target = "_parent"
+
+//////////////////// Video Player ////////////////////
+const vpaidVideoCreativePlayer = {
+  // In MRAID, only 5 methods are available, based on 'IAB MRAID Video Addendum' PDF file
+  subscribe: setupEventHandler, // called by MRAID container
+
+  unsubscribe: () => { throw "not implemented" },
+
+  startAd: () => {
+    adEventHandlers.AdImpression()
+    adEventHandlers.AdStarted()
+    const video = document.getElementById("adVideo")
+    video.addEventListener("play", adEventHandlers.AdVideoStart)
+    video.addEventListener("pause", adEventHandlers.AdPaused)
+    video.addEventListener("playing", adEventHandlers.AdPlaying)
+    video.addEventListener("ended", adEventHandlers.AdVideoComplete)
+    // this.video.addEventListener(???, adEventHandlers.AdVideoFirstQuartile) TODO
+    // this.video.addEventListener(???, adEventHandlers.AdVideoMidpoint) TODO
+    // this.video.addEventListener(???, adEventHandlers.AdVideoThirdQuartile) TODO
+    video.play()
+  },
+
+  getAdDuration: () => 15, // dummy
+
+  getAdRemainingTime: () => 15, // dummy
+
+  pauseAd: () => document.getElementById("adVideo").pause(),
+
+  resumeAd : () => document.getElementById("adVideo").play(),
+}
+
+//////////////////// MRAID Setup ////////////////////
+function waitReady() {
+  mraid.addEventListener("error", (message, action) => {
+    console.log(message, action)
+  })
+
+  if (mraid.getState() === 'loading') {
+    mraid.addEventListener("ready", waitViewable)
+  } else {
+    // if already ready
+    waitViewable()
+  }
+}
+
+function waitViewable() {
+  mraid.removeEventListener("ready", waitViewable)
+
+  if (!mraid.isViewable()) {
+    // wait visible
+    mraid.addEventListener("viewableChange", startVideoAd)
+  } else {
+    // if already viewable
+    startVideoAd(true)
+  }
+}
+
+function startVideoAd(visible) {
+  if (visible) {
+    mraid.removeEventListener("viewableChange", startVideoAd)
+    mraid.initVpaid(vpaidVideoCreativePlayer) // startAd() is called
+    mraid.play()
+  } else {
+    throw "invalid state"
+  }
+}
+
+waitReady()
+</script>
