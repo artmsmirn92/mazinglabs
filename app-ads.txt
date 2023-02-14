@@ -937,3 +937,5 @@ appnexus.com, 13099, RESELLER
 yahoo.com, 58905, RESELLER, e1a5b5b6e3255540
 pubmatic.com, 161593, RESELLER, 5d62403b186f2ace
 rubiconproject.com, 11006, RESELLER, 0bfd66d529a55807
+pubnative.net, 1234567, DIRECT, d641df8625486a7b
+pubnative.net, 1234567, RESELLER, d641df8625486a7b
