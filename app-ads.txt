@@ -1031,4 +1031,4 @@ appnexus.com, 8178, RESELLER
 betweendigital.com, 43092, RESELLER
 sovrn.com, 273644, RESELLER
 pubmatic.com, 156631, RESELLER
-facebook.com, 1154329148832295, DIRECT, c3e20eee3f780d68
+facebook.com, 1154153258555749, RESELLER, c3e20eee3f780d68
