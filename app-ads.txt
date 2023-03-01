@@ -133,11 +133,7 @@ openx.com, 540338069, RESELLER, 6a698e2ec38604c6
 rhythmone.com, 1605779867, RESELLER, a670c89d4a324e47
 rubiconproject.com, 16834, RESELLER, 0bfd66d529a55807
 Vungle.com, 56f167bda94d7ae44a000103, RESELLER, c107d686becd2d77
-Openx.com, 540280728, RESELLER, 6a698e2ec38604c6
-Appnexus.com, 10128, RESELLER, f5ab79cb980f11d1
-Indexexchange.com, 185774, RESELLER, 50b1c356f2c5c8fc
 Inmobi.com, 2e0484e00bf84f35b133019004ef76a4, RESELLER, 83e75a7ae333ca9d
-Loopme.com, 10999, RESELLER, 6c8d5f95897a5a3b
 contextweb.com, 560288, RESELLER, 89ff185a4c4e857c
 pubmatic.com, 156439, RESELLER
 pubmatic.com, 154037, RESELLER
@@ -170,18 +166,14 @@ rubiconproject.com, 12286, RESELLER, 0bfd66d529a55807
 #Vungle
 vungle.com, 561e8d956b8d90f61a003219, RESELLER, c107d686becd2d77
 adcolony.com, 1efc6603710003ea, RESELLER, 1ad675c9de6b5176
-appnexus.com, 10128, RESELLER, f5ab79cb980f11d1
 appnexus.com, 8178, RESELLER, f5ab79cb980f11d1
 contextweb.com, 561884, RESELLER, 89ff185a4c4e857c
 EMXDGT.com, 1324, RESELLER, 1e1d41537f7cad7f
 engagebdr.com, 10252, RESELLER
 improvedigital.com, 1366, RESELLER
 improvedigital.com, 1532, RESELLER
-indexexchange.com, 185774, RESELLER, 50b1c356f2c5c8fc
-loopme.com, 10999, RESELLER, 6c8d5f95897a5a3b
 openx.com, 537152826, RESELLER, 6a698e2ec38604c6
 openx.com, 539472296, RESELLER, 6a698e2ec38604c6
-openx.com, 540280728, RESELLER, 6a698e2ec38604c6
 openx.com, 540298543, RESELLER, 6a698e2ec38604c6
 pubmatic.com, 155975, RESELLER, 5d62403b186f2ace
 pubmatic.com, 158154, RESELLER, 5d62403b186f2ace
@@ -249,7 +241,6 @@ loopme.com, 11322, RESELLER, 6c8d5f95897a5a3b
 lkqd.net, 647, RESELLER, 59c49fa9598a0117
 lkqd.net, 654, RESELLER, 59c49fa9598a0117
 inmobi.com, f3924290136e4129a5c082ff982c3a58, RESELLER, 83e75a7ae333ca9d
-verve.com, 15290, RESELLER, 0c8f5958fc2d6270
 inmobi.com, c1e6d3502da64ebaa3ad0e4a4be15f11, RESELLER, 83e75a7ae333ca9d
 contextweb.com, 561849, RESELLER, 89ff185a4c4e857c
 improvedigital.com, 1210, RESELLER
@@ -277,7 +268,6 @@ spotx.tv, 234183, RESELLER, 7842df1d2fe2db34
 spotxchange.com, 234183, RESELLER, 7842df1d2fe2db34
 sonobi.com, eaec54c63f, RESELLER, d1a215d9eb5aee9e
 video.unrulymedia.com, 1605779867, RESELLER
-verve.com, 15503, RESELLER, 0c8f5958fc2d6270
 indexexchange.com, 192829, RESELLER, 50b1c356f2c5c8fc
 advertising.com, 28246, RESELLER
 sabio.us, 100032, RESELLER, 96ed93aaa9795702
@@ -431,8 +421,6 @@ contextweb.com, 562122, RESELLER, 89ff185a4c4e857c
 conversantmedia.com, 100081, RESELLER, 03113cd04947736d
 inmobi.com, ab915bcef5b24940bf745f1a8f427bec, RESELLER, 83e75a7ae333ca9d
 Pubnative.net, 1006936, RESELLER, d641df8625486a7b
-Verve.com, 15503, RESELLER, 0c8f5958fc2d6270
-Verve.com, 15290, RESELLER, 0c8f5958fc2d6270
 adcolony.com, 382d79cd1387e603, RESELLER, 1ad675c9de6b5176
 rhythmone.com, 3218195319, RESELLER, a670c89d4a324e47
 e-planning.net,a15ce31379a418ac,RESELLER,c1ba615865ed87b2
@@ -579,12 +567,10 @@ yandex.com,95746987,RESELLER
 smaato.com,1100042823,RESELLER,07bcf65f187117b4
 video.unrulymedia.com,123476257,RESELLER
 pubmatic.com,158565,RESELLER,5d62403b186f2ace
-conversantmedia.com,100269,RESELLER,03113cd04947736d
 smartadserver.com,4140,RESELLER
 waardex.com, 103777, RESELLER
 waardex.com, 278, RESELLER
 taipeidigital.com, 1122, RESELLER
-conversantmedia.com, 100269, RESELLER, 03113cd04947736d
 rubiconproject.com,17608,RESELLER,0bfd66d529a55807
 triplelift.com, 10522, RESELLER, 6c33edb13117fd86
 media.net, 8CU1CP7PM, RESELLER
@@ -664,7 +650,6 @@ yandex.com, 97539269, RESELLER
 #Criteo
 criteo.com, B-057601, DIRECT, 9fac4a4a87c2a44f
 themediagrid.com, SWH94X, DIRECT, 35d5010d7789b49d
-#Inmobi
 inmobi.com,b76e9bc9a7d3407fa84ce458f01e313d,DIRECT,83e75a7ae333ca9d
 inmobi.com,b76e9bc9a7d3407fa84ce458f01e313d,RESELLER,83e75a7ae333ca9d
 inmobi.com,00277b4924114b3b9c38bfff03c6957f,RESELLER,83e75a7ae333ca9d
@@ -672,20 +657,14 @@ inmobi.com,01665cb6e8b14c939a57cd458a1e702d,RESELLER,83e75a7ae333ca9d
 inmobi.com,0bb5f3a088bf45c2ac6a905570f632f6,RESELLER,83e75a7ae333ca9d
 inmobi.com,129f6cf736cd4803a47013466aa0a512,RESELLER,83e75a7ae333ca9d
 inmobi.com,1ce8fbcf1e084f6ea2df9b5d6ced22d9,RESELLER,83e75a7ae333ca9d
-inmobi.com,22e5354e453f49348325184e25464adb,RESELLER,83e75a7ae333ca9d
 inmobi.com,26bbe9fe0956462d922f5ea66462f263,RESELLER,83e75a7ae333ca9d
 inmobi.com,2a029aadc7394ca7b4267be784a2dbd2,RESELLER,83e75a7ae333ca9d
 inmobi.com,2ce3487332a74ffdbf734480429de58d,RESELLER,83e75a7ae333ca9d
-inmobi.com,2e0484e00bf84f35b133019004ef76a4,RESELLER,83e75a7ae333ca9d
 inmobi.com,300bb0e4e3704cd495136c09d57448b9,RESELLER,83e75a7ae333ca9d
 inmobi.com,33f042dcf10549ae9fb1b9e2ee0ecfc3,RESELLER,83e75a7ae333ca9d
-inmobi.com,3a4f7da341dd490cbb7dde02b126275e,RESELLER,83e75a7ae333ca9d
-inmobi.com,3af76ebd8ed44d04b01d827c6f3bb5b4,RESELLER,83e75a7ae333ca9d
 inmobi.com,451cfdf0fe9d4fa096e95c7338fb6eb9,RESELLER,83e75a7ae333ca9d
 inmobi.com,55049d2e109d4ac1820ca1432dda4e13,RESELLER,83e75a7ae333ca9d
 inmobi.com,59c7922793a3477b9419f0854d1da7e9,RESELLER,83e75a7ae333ca9d
-inmobi.com,5baa7ca93ef847c0876297e737dac3ee,RESELLER,83e75a7ae333ca9d
-inmobi.com,61d733c3779d43e590c51c8bc078e10c,RESELLER,83e75a7ae333ca9d
 inmobi.com,646f661707f3436dbca56b7f882e5507,RESELLER,83e75a7ae333ca9d
 inmobi.com,6f4e0f593c2c4e5bb9d03d3042318ab0,RESELLER,83e75a7ae333ca9d
 inmobi.com,75250c5a6156452697c99dff3372dd0b,RESELLER,83e75a7ae333ca9d
@@ -696,10 +675,8 @@ inmobi.com,8db4f84a164540b887b178eb1a6e1721,RESELLER,83e75a7ae333ca9d
 inmobi.com,94d702ada29c4b059e9aca837748b9fc,RESELLER,83e75a7ae333ca9d
 inmobi.com,9c3841bbfaf4447ea9c4171e436a0c7b,RESELLER,83e75a7ae333ca9d
 inmobi.com,9e6651ea222c46a7ad3715ebc3b84a64,RESELLER,83e75a7ae333ca9d
-inmobi.com,a5e661acdc384e91a79a58eb3418e99f,RESELLER,83e75a7ae333ca9d
 inmobi.com,a985e39014a94721a8e97c929d32ef9d,RESELLER,83e75a7ae333ca9d
 inmobi.com,b164fef73b06493b92a9fae09941eef4,RESELLER,83e75a7ae333ca9d
-inmobi.com,c1e6d3502da64ebaa3ad0e4a4be15f11,RESELLER,83e75a7ae333ca9d
 inmobi.com,c4139482b63a46d39263fd78c9b3a7be,RESELLER,83e75a7ae333ca9d
 inmobi.com,c85bf9db09b548a180c9fa6d204323f6,RESELLER,83e75a7ae333ca9d
 inmobi.com,cf7133b161484695b848ea1674cff761,RESELLER,83e75a7ae333ca9d
@@ -711,11 +688,8 @@ inmobi.com,eb599497e3d345d19364cc841f39de31,RESELLER,83e75a7ae333ca9d
 inmobi.com,ebc44eef6c104f7fbf7bc52ee29f7939,RESELLER,83e75a7ae333ca9d
 inmobi.com,ebfe901738d34eae88b2eaa429f55a58,RESELLER,83e75a7ae333ca9d
 inmobi.com,ec6f6ceb8bb1440ba5455644ec96c275,RESELLER,83e75a7ae333ca9d
-inmobi.com,f3924290136e4129a5c082ff982c3a58,RESELLER,83e75a7ae333ca9d
 inmobi.com,f4b340bf9ec148c48892790edffe4f91,RESELLER,83e75a7ae333ca9d
 inmobi.com,f7016772309e4a60ba2687fce8ea87a9,RESELLER,83e75a7ae333ca9d
-inmobi.com,fafa1521dbdb43f69b1eb199a0b007fd,RESELLER,83e75a7ae333ca9d
-inmobi.com,fe4db13744124582a6a2b18964560ce7,RESELLER,83e75a7ae333ca9d
 #Rhebus
 smartstream.tv,667,RESELLER
 tritondigital.com,38083,RESELLER,19b4454d0b87b58b
@@ -838,7 +812,6 @@ pubmatic.com, 159527, RESELLER, 5d62403b186f2ace
 indexexchange.com, 192095, RESELLER
 #LemmaTechnologies
 lemmatechnologies.com, 871, RESELLER, 7829010c5bebd1fb
-smartyads.com, RESELLER, fd2bde0ff2e62c5d
 betweendigital.com, 44077, RESELLER
 pubmatic.com, 156494, RESELLER, 5d62403b186f2ace
 smartadserver.com, 3564, RESELLER
