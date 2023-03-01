@@ -818,7 +818,7 @@ smartadserver.com, 3564, RESELLER
 #Yahoo
 yahoo.com, 59972, RESELLER
 #9dots
-9dotsmedia.com, 1171, RESELLER, 89ff185a4c4e857c.
+9dotsmedia.com, 1171, RESELLER, 89ff185a4c4e857c
 smaato.com, 1100049696, RESELLER, 07bcf65f187117b4
 adcolony.com, 496220845654deec, RESELLER, 1ad675c9de6b5176
 yieldmo.com, 2898665720520844167, RESELLER
