@@ -1,34 +1,43 @@
 {
   "project_info": {
-    "project_number": "619485590991",
-    "firebase_url": "https://minigames-collection-299814-default-rtdb.firebaseio.com",
-    "project_id": "minigames-collection-299814",
-    "storage_bucket": "minigames-collection-299814.appspot.com"
+    "project_number": "78127900329",
+    "project_id": "football-heads-6ae07",
+    "storage_bucket": "football-heads-6ae07.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:619485590991:ios:6870bb62ba6c9e7e484eba",
+        "mobilesdk_app_id": "1:78127900329:android:1be226f8af47d75e4eabb8",
         "android_client_info": {
-          "package_name": "com.MazingLabCo.MazesForever"
+          "package_name": "com.MazingLabCo.fheads"
         }
       },
       "oauth_client": [
         {
-          "client_id": "619485590991-i5ucih45s7t837fieqn6tqvu873jrpek.apps.googleusercontent.com"
+          "client_id": "78127900329-ttn8b635hsrlro64n9uaue38a5l6of9c.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA85TThGWvcinmagTWAoife-X9Ml3sV0rk"
+          "current_key": "AIzaSyDY77GEo_1DDWV-agVdXiHAyw_NZ-whqz8"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 0
-        },
         "appinvite_service": {
-          "status": 1
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78127900329-ttn8b635hsrlro64n9uaue38a5l6of9c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "78127900329-rvr4q7ouoj1rqnvqc2m6iia9rtlvhs50.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.MazingLabCo.fheads"
+              }
+            }
+          ]
         }
       }
     }
